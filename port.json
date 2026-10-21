@@ -1,0 +1,28 @@
+{
+  "$schema": "https://living-code.dev/port.schema.json",
+  "schemaVersion": 1,
+  "name": "Crush",
+  "slug": "crush",
+  "group": "AI & Agents",
+  "emoji": "💘",
+  "description": "Living Code for Crush: complete native palette files with UI surfaces, status colors, review diffs and all sixteen ANSI colors.",
+  "homepage": "https://github.com/charmbracelet/crush",
+  "quick": "Install the native theme files",
+  "aliases": [
+    "charm crush",
+    "charmbracelet"
+  ],
+  "flavors": [
+    "night",
+    "frost",
+    "paper",
+    "signal"
+  ],
+  "files": [
+    "themes/living-code-night.json",
+    "themes/living-code-frost.json",
+    "themes/living-code-paper.json",
+    "themes/living-code-signal.json"
+  ],
+  "images": []
+}
