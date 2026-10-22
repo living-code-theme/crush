@@ -8,7 +8,7 @@
     "capture/flake.nix": "1835a9af259f919c58cbf106dd89b40da4d8b6e84eba872f9325eab316368a58",
     "palette/theme.json": "d735cf005e3b2807953226c0119e384f6f8a3d2b3167443371cb302a8c689cdb",
     "port.json": "ec02921b64df04da9896a4202ef5391f4a4d28823ddb7caaf03bf5e33a872b9a",
-    "scripts/capture.py": "dcb8dc5d8a6ecbf2eb998eab90d678c745c9de6e9d35ded82edc0a949cb7e4e8",
+    "scripts/capture.py": "1fefb763f00567b795b92388b29e3e8c3fd58bd0eefa9c2f31e43663cad7a308",
     "themes/living-code-frost.json": "2f1c3d2da98da82927d9fa27a277eb168c8f4641da8f3b93e9d2d863e558d950",
     "themes/living-code-night.json": "79cb81f2ead054e232d862236f411c3c9722346e1180b2d89c23293747154bb9",
     "themes/living-code-paper.json": "34d5a8474cf77fb1f23b71ca4a7ab17d8129c9c4e23206751d722b6306b1f9cb",
@@ -17,7 +17,7 @@
   "images": {
     "night": {
       "path": "images/night.png",
-      "sha256": "8164ec67191c8daa93515d7213efd64b1149bc363bb1beeac109c040d60564d6",
+      "sha256": "d779a16872a04c17bdceb4a2d6758a6a46d3353a5ab166fdd6cceb870c6dfc3f",
       "application": "crush version 0.98.1",
       "paletteColors": [
         "#00a692",
@@ -33,7 +33,7 @@
     },
     "frost": {
       "path": "images/frost.png",
-      "sha256": "de2ee37cd6ba456698d4b33db2e97a9d3d875377ebb92bbab199feca0265bfdb",
+      "sha256": "5b4a6055cc599492e997cd4a72a845f9c804d724556ff4422dc903b17638128d",
       "application": "crush version 0.98.1",
       "paletteColors": [
         "#0a1016",
@@ -49,7 +49,7 @@
     },
     "paper": {
       "path": "images/paper.png",
-      "sha256": "3be56c79e5bef81b9586452568d96193fce48b37dcce7d62ceac5eb73065f311",
+      "sha256": "baea15974e1e94fc2a93a2c534a655e2fe39748c7dd95e1f41714498a47d7ed9",
       "application": "crush version 0.98.1",
       "paletteColors": [
         "#0f695e",
@@ -65,7 +65,7 @@
     },
     "signal": {
       "path": "images/signal.png",
-      "sha256": "e8848d1261d3e182027467c999de0869345124c350af6bd38ef4cddd7d84aa4d",
+      "sha256": "2017ba8158bf46fbedc2db852de8061327eca791a3766ec417ca42e190defcf1",
       "application": "crush version 0.98.1",
       "paletteColors": [
         "#00a692",
