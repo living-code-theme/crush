@@ -7,23 +7,40 @@
 
 ## Previews
 
-Real application screenshots have not been captured yet.
+<table data-lc-flavors>
+<tr>
+<td width="50%" valign="top">
+<strong>Night</strong><br><sub>Dark · full palette</sub><br><br>
+<a href="images/night.png"><img src="images/night.png" alt="Crush running Living Code Night" width="640"></a>
+</td>
+<td width="50%" valign="top">
+<strong>Frost</strong><br><sub>Dark · softer chroma</sub><br><br>
+<a href="images/frost.png"><img src="images/frost.png" alt="Crush running Living Code Frost" width="640"></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<strong>Paper</strong><br><sub>Light · near-white slate</sub><br><br>
+<a href="images/paper.png"><img src="images/paper.png" alt="Crush running Living Code Paper" width="640"></a>
+</td>
+<td width="50%" valign="top">
+<strong>Signal</strong><br><sub>Dark · teal accent</sub><br><br>
+<a href="images/signal.png"><img src="images/signal.png" alt="Crush running Living Code Signal" width="640"></a>
+</td>
+</tr>
+</table>
+
+Select any preview to view the image at full size.
 
 ## Installation
 
 ```sh
-git clone https://github.com/living-code-theme/crush.git
-cd crush
+flavor=night # night, frost, paper, or signal
+theme_dir="${CRUSH_GLOBAL_CONFIG:-${XDG_CONFIG_HOME:-$HOME/.config}/crush}/themes"
+curl -fsSL --create-dirs -o "$theme_dir/living-code-$flavor.json" "https://raw.githubusercontent.com/living-code-theme/crush/main/themes/living-code-$flavor.json"
 ```
 
-On Linux with the default config location:
-
-```sh
-mkdir -p "${XDG_CONFIG_HOME:-$HOME/.config}/crush/themes"
-cp themes/*.json "${XDG_CONFIG_HOME:-$HOME/.config}/crush/themes/"
-```
-
-Open Crush, press **Ctrl+P**, choose **Themes**, and select `living-code-night`. If you use `CRUSH_GLOBAL_CONFIG`, place `themes/` alongside that global config file instead. On other platforms, use the `themes/` directory beside Crush’s global config.
+Open Crush, press **Ctrl+P**, choose **Themes**, and select `living-code-night` or the flavor you downloaded. `CRUSH_GLOBAL_CONFIG` is a **directory**, not a config filename; its `themes/` subdirectory is used when set. On other platforms, place `themes/` inside Crush’s global config directory. Existing config is not replaced.
 
 ## Flavors
 
@@ -32,7 +49,7 @@ Expand a flavor for its full-size preview and activation instructions.
 <details data-lc-flavor="night">
 <summary><strong>Night</strong> · Dark · full palette</summary>
 
-A real application capture is not available yet.
+<p><a href="images/night.png"><img src="images/night.png" alt="Crush running Living Code Night" width="1280"></a></p>
 
 Choose `living-code-night` in **Ctrl+P → Themes**.
 
@@ -41,7 +58,7 @@ Choose `living-code-night` in **Ctrl+P → Themes**.
 <details data-lc-flavor="frost">
 <summary><strong>Frost</strong> · Dark · softer chroma</summary>
 
-A real application capture is not available yet.
+<p><a href="images/frost.png"><img src="images/frost.png" alt="Crush running Living Code Frost" width="1280"></a></p>
 
 Choose `living-code-frost` in **Ctrl+P → Themes**.
 
@@ -50,7 +67,7 @@ Choose `living-code-frost` in **Ctrl+P → Themes**.
 <details data-lc-flavor="paper">
 <summary><strong>Paper</strong> · Light · near-white slate</summary>
 
-A real application capture is not available yet.
+<p><a href="images/paper.png"><img src="images/paper.png" alt="Crush running Living Code Paper" width="1280"></a></p>
 
 Choose `living-code-paper` in **Ctrl+P → Themes**.
 
@@ -59,7 +76,7 @@ Choose `living-code-paper` in **Ctrl+P → Themes**.
 <details data-lc-flavor="signal">
 <summary><strong>Signal</strong> · Dark · teal accent</summary>
 
-A real application capture is not available yet.
+<p><a href="images/signal.png"><img src="images/signal.png" alt="Crush running Living Code Signal" width="1280"></a></p>
 
 Choose `living-code-signal` in **Ctrl+P → Themes**.
 
@@ -78,6 +95,8 @@ The files specify every public `Palette` field and do not rely on an unrelated b
 ## Compatibility
 
 Requires a Crush release supporting standalone JSON theme files and `options.tui.active_theme`. This API was verified against the source revision recorded in `test/fixtures/upstream.json`; older builds without custom themes need an update. The field contract is extracted from Crush’s own palette implementation. No custom providers or credentials are installed.
+
+Previews are captured programmatically from the actual application in an isolated profile. See [`capture/app.py`](capture/app.py) for the app-owned recipe and [`images/capture.json`](images/capture.json) for runtime, palette and image provenance. No mock interface is drawn.
 
 ## Contributing
 

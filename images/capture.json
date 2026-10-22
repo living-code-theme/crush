@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "scene": "Crush native TUI with isolated configuration. No model request.",
+  "inputs": {
+    "capture/app.py": "366d727195db3354a10d90b12ef6bb8343e37c8eb1dad5f6cde20d315118ded9",
+    "capture/config.json": "c558031bfb12c0b6be00e1628f9f29fa6960ae1d3cda5cce2f21b595fb0a6c4e",
+    "capture/flake.lock": "e3750f7ba25d0b1971722cdd83b2f07e32528980a4d6a9a1ea55177747de5752",
+    "capture/flake.nix": "d742f9e466fa0f66358901e7cb8ab179d602be73dbda7c8cd4c2987619d73bb0",
+    "palette/theme.json": "d735cf005e3b2807953226c0119e384f6f8a3d2b3167443371cb302a8c689cdb",
+    "port.json": "ec02921b64df04da9896a4202ef5391f4a4d28823ddb7caaf03bf5e33a872b9a",
+    "scripts/capture.py": "6830da447e48a4ab5511012b5222763677214e8a98683b94c60248765202ca9f",
+    "themes/living-code-frost.json": "2f1c3d2da98da82927d9fa27a277eb168c8f4641da8f3b93e9d2d863e558d950",
+    "themes/living-code-night.json": "79cb81f2ead054e232d862236f411c3c9722346e1180b2d89c23293747154bb9",
+    "themes/living-code-paper.json": "34d5a8474cf77fb1f23b71ca4a7ab17d8129c9c4e23206751d722b6306b1f9cb",
+    "themes/living-code-signal.json": "d0865e439e966974362ca9e11fe56e9c9e26eed89f73f32cec0680db84238862"
+  },
+  "images": {
+    "night": {
+      "path": "images/night.png",
+      "sha256": "23e09e69608c54622b674ff0424c3f4a3d091e47624f5443008bfa5ad3808610",
+      "application": "crush version 0.98.1",
+      "paletteColors": [
+        "#00a692",
+        "#05080b",
+        "#1d2226",
+        "#52d7c1",
+        "#747c80",
+        "#8acb83",
+        "#9ba0a2",
+        "#bf91cd",
+        "#e2e9ee"
+      ]
+    },
+    "frost": {
+      "path": "images/frost.png",
+      "sha256": "1241a6fb01d5e37aa9753766b9fdef78c2328be23a854faaec80362804987dbf",
+      "application": "crush version 0.98.1",
+      "paletteColors": [
+        "#0a1016",
+        "#232a30",
+        "#43a997",
+        "#7d8489",
+        "#8ad5c6",
+        "#9ba0a2",
+        "#a2cb9d",
+        "#bc9ec6",
+        "#e2e9ee"
+      ]
+    },
+    "paper": {
+      "path": "images/paper.png",
+      "sha256": "cbbb8cae5d4b682a98f7e7819285a7223d27ca287f5e6a31161d5f9a56ad379b",
+      "application": "crush version 0.98.1",
+      "paletteColors": [
+        "#0f695e",
+        "#12171a",
+        "#187d6e",
+        "#3b7a35",
+        "#50565a",
+        "#6b7378",
+        "#81558e",
+        "#d2d8dd",
+        "#f4f7f9"
+      ]
+    },
+    "signal": {
+      "path": "images/signal.png",
+      "sha256": "4e2a249ae5bc2083767b13f0e61addecec2a502f4f5ddddd4eaa52f3eabf118a",
+      "application": "crush version 0.98.1",
+      "paletteColors": [
+        "#00a692",
+        "#05080b",
+        "#1d2226",
+        "#747c80",
+        "#9ba0a2",
+        "#c8cfd4",
+        "#e2e9ee"
+      ]
+    }
+  }
+}

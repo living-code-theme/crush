@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "scene": "Crush native TUI with isolated configuration. No model request.",
+  "versionCommand": [
+    "crush",
+    "--version"
+  ],
+  "fixtures": []
+}
