@@ -1,14 +1,15 @@
 {
   "schemaVersion": 1,
-  "scene": "Crush native TUI with isolated configuration. No model request.",
+  "scene": "Crush native conversation and Markdown/code renderer with a labeled local demo in its isolated session database. No model request or user credentials.",
   "inputs": {
-    "capture/app.py": "366d727195db3354a10d90b12ef6bb8343e37c8eb1dad5f6cde20d315118ded9",
-    "capture/config.json": "c558031bfb12c0b6be00e1628f9f29fa6960ae1d3cda5cce2f21b595fb0a6c4e",
+    "capture/app.py": "45024fed361adf5ce2163266453267b3195f3168303c29df9fd90bb45708ad58",
+    "capture/config.json": "886cffafd64cd94ab00b5a8d03ac3e4529ea193e4832d11abbb963a13c671bd5",
     "capture/flake.lock": "e3750f7ba25d0b1971722cdd83b2f07e32528980a4d6a9a1ea55177747de5752",
-    "capture/flake.nix": "1835a9af259f919c58cbf106dd89b40da4d8b6e84eba872f9325eab316368a58",
+    "capture/flake.nix": "05752662522ae5a90791eff440f1d95cde9d521a4d96cc72d78f3fd9d98963fe",
+    "capture/review.md": "eab4a3ae509f01d72a9370f877cb7d69ceeb5418ad23645f465d9182d47f41ab",
     "palette/theme.json": "d735cf005e3b2807953226c0119e384f6f8a3d2b3167443371cb302a8c689cdb",
     "port.json": "ec02921b64df04da9896a4202ef5391f4a4d28823ddb7caaf03bf5e33a872b9a",
-    "scripts/capture.py": "1fefb763f00567b795b92388b29e3e8c3fd58bd0eefa9c2f31e43663cad7a308",
+    "scripts/capture.py": "ea56b3784525095d9175887431004ce5df674f17b45c7e5a8d0399aa68615c33",
     "themes/living-code-frost.json": "2f1c3d2da98da82927d9fa27a277eb168c8f4641da8f3b93e9d2d863e558d950",
     "themes/living-code-night.json": "79cb81f2ead054e232d862236f411c3c9722346e1180b2d89c23293747154bb9",
     "themes/living-code-paper.json": "34d5a8474cf77fb1f23b71ca4a7ab17d8129c9c4e23206751d722b6306b1f9cb",
@@ -17,59 +18,76 @@
   "images": {
     "night": {
       "path": "images/night.png",
-      "sha256": "d779a16872a04c17bdceb4a2d6758a6a46d3353a5ab166fdd6cceb870c6dfc3f",
+      "sha256": "3fb8377efd1bf6d84f8230d5919eb44ae00e2873470ca6e26bc2eec3cef371c2",
       "application": "crush version 0.98.1",
       "paletteColors": [
         "#00a692",
         "#05080b",
+        "#12171a",
         "#1d2226",
         "#52d7c1",
         "#747c80",
+        "#80b6d3",
         "#8acb83",
         "#9ba0a2",
         "#bf91cd",
-        "#e2e9ee"
+        "#c8cfd4",
+        "#e2e9ee",
+        "#e96560",
+        "#f0be6d"
       ]
     },
     "frost": {
       "path": "images/frost.png",
-      "sha256": "5b4a6055cc599492e997cd4a72a845f9c804d724556ff4422dc903b17638128d",
+      "sha256": "17667235ff1151868c6a997f52881150cade0fbeeb42baf174046644156a823e",
       "application": "crush version 0.98.1",
       "paletteColors": [
         "#0a1016",
+        "#171e24",
         "#232a30",
         "#43a997",
         "#7d8489",
         "#8ad5c6",
+        "#98bacd",
         "#9ba0a2",
         "#a2cb9d",
         "#bc9ec6",
-        "#e2e9ee"
+        "#c8cfd4",
+        "#d68079",
+        "#e2e9ee",
+        "#e9c897"
       ]
     },
     "paper": {
       "path": "images/paper.png",
-      "sha256": "baea15974e1e94fc2a93a2c534a655e2fe39748c7dd95e1f41714498a47d7ed9",
+      "sha256": "73fd2fff8e40df26836cfc6e25737a03484d179e7ce00647c280de61f050e546",
       "application": "crush version 0.98.1",
       "paletteColors": [
         "#0f695e",
         "#12171a",
         "#187d6e",
+        "#2b6991",
+        "#2e3437",
         "#3b7a35",
         "#50565a",
         "#6b7378",
         "#81558e",
+        "#8f6213",
+        "#a74541",
         "#d2d8dd",
+        "#e3e9ed",
+        "#ebeff2",
         "#f4f7f9"
       ]
     },
     "signal": {
       "path": "images/signal.png",
-      "sha256": "2017ba8158bf46fbedc2db852de8061327eca791a3766ec417ca42e190defcf1",
+      "sha256": "88fddfd28c66bbfa5f41298fd7fdef5613368dcc7a80bfa6cd1db42c9dc84d24",
       "application": "crush version 0.98.1",
       "paletteColors": [
         "#00a692",
         "#05080b",
+        "#12171a",
         "#1d2226",
         "#747c80",
         "#9ba0a2",

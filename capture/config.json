@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "scene": "Crush native TUI with isolated configuration. No model request.",
+  "scene": "Crush native conversation and Markdown/code renderer with a labeled local demo in its isolated session database. No model request or user credentials.",
   "versionCommand": [
     "crush",
     "--version"
   ],
-  "fixtures": []
+  "fixtures": ["capture/review.md"]
 }

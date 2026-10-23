@@ -109,7 +109,9 @@ The files specify every public `Palette` field and do not rely on an unrelated b
 
 Requires a Crush release supporting standalone JSON theme files and `options.tui.active_theme`. This API was verified against the source revision recorded in `test/fixtures/upstream.json`; older builds without custom themes need an update. The field contract is extracted from Crush’s own palette implementation. No custom providers or credentials are installed.
 
-Previews are captured programmatically from the actual application in an isolated profile. See [`capture/app.py`](capture/app.py) for the app-owned recipe and [`images/capture.json`](images/capture.json) for runtime, palette and image provenance. No mock interface is drawn.
+**Syntax limitation:** Crush derives Chroma styles from shared UI palette fields in `internal/ui/styles/quickstyle.go`, rather than accepting independent code roles. In particular, strings and punctuation share `warningSubtle`, while numbers use `success`. Neovim assigns those roles different colors, so a stock Crush palette cannot reproduce all its syntax mappings without breaking other roles. The current port supplies Living Code colors but does not claim exact Neovim syntax parity. Exact parity needs an upstream syntax-style API.
+
+Previews are captured programmatically from the actual application in an isolated profile. See [`capture/app.py`](capture/app.py) for the app-owned recipe and [`images/capture.json`](images/capture.json) for runtime, palette and image provenance. No mock interface is drawn. The conversation is a labeled, repository-owned local demo, not a private session or a live model response. Recapturing needs no account, subscription or paid API call.
 
 ## Contributing
 
