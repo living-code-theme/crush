@@ -4,7 +4,7 @@ const roles = {
   primary: 'accent', secondary: 'decorator', accent: 'info', keyword: 'keyword', fg_base: 'fg',
   fg_subtle: 'fgAlt', fg_more_subtle: 'fgMuted', fg_most_subtle: 'fgSubtle', bg_base: 'bg',
   bg_most_visible: 'selection', bg_less_visible: 'lineHighlight', bg_least_visible: 'bgAlt',
-  on_primary: 'bg', separator: 'border', destructive: 'removed', error: 'error', warning: 'warning',
+  on_primary: 'bg', separator: 'border', destructive: 'removed', destructive_subtle: 'removed', error: 'error', warning: 'warning',
   warning_subtle: 'warning', attention: 'number', busy: 'warning', info: 'info', info_more_subtle: 'info',
   info_most_subtle: 'fgSubtle', success: 'success', success_more_subtle: 'success', success_most_subtle: 'hint',
   diff_insert_fg: 'added', diff_delete_fg: 'removed', yolo: 'warning', plan: 'info', plan_more_subtle: 'fgSubtle',

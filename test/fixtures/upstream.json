@@ -1,11 +1,11 @@
 {
   "repository": "charmbracelet/crush",
-  "revision": "0c16d5f4b49ce81dfdf09f8233adab15d71f9b55",
+  "revision": "152e565f9f63c73d1d61157db1eb31afea46ba8e",
   "paths": [
     "internal/ui/styles/palette.go",
     "internal/ui/styles/theme_file.go"
   ],
-  "checked": "2026-10-21",
+  "checked": "2026-11-26",
   "contract": "json",
   "colors": [
     "primary",
@@ -23,6 +23,7 @@
     "on_primary",
     "separator",
     "destructive",
+    "destructive_subtle",
     "error",
     "warning",
     "warning_subtle",
