@@ -10,15 +10,15 @@
     "palette/theme.json": "d735cf005e3b2807953226c0119e384f6f8a3d2b3167443371cb302a8c689cdb",
     "port.json": "ec02921b64df04da9896a4202ef5391f4a4d28823ddb7caaf03bf5e33a872b9a",
     "scripts/capture.py": "ea56b3784525095d9175887431004ce5df674f17b45c7e5a8d0399aa68615c33",
-    "themes/living-code-frost.json": "2f1c3d2da98da82927d9fa27a277eb168c8f4641da8f3b93e9d2d863e558d950",
-    "themes/living-code-night.json": "79cb81f2ead054e232d862236f411c3c9722346e1180b2d89c23293747154bb9",
-    "themes/living-code-paper.json": "34d5a8474cf77fb1f23b71ca4a7ab17d8129c9c4e23206751d722b6306b1f9cb",
-    "themes/living-code-signal.json": "d0865e439e966974362ca9e11fe56e9c9e26eed89f73f32cec0680db84238862"
+    "themes/living-code-frost.json": "443662e052e2afa56f6dfdb5c9d09131c738aeaeb9e8afa2ce09da629af31d5e",
+    "themes/living-code-night.json": "48d9492eefe3aa5be6a4c641678124d63d9bb65ad668b671c696d921323dd179",
+    "themes/living-code-paper.json": "42f051bfcd9a3baf7572df591c3492611193e24ed073959680937987b876d409",
+    "themes/living-code-signal.json": "448a7d183bc8ed303d68655e00bfa061a137ea738f5bdfce0840c2aaabb50b66"
   },
   "images": {
     "night": {
       "path": "images/night.png",
-      "sha256": "3fb8377efd1bf6d84f8230d5919eb44ae00e2873470ca6e26bc2eec3cef371c2",
+      "sha256": "88f21690648cea82a8c0e404de9e429387c5559c87b907206504a94240bf8568",
       "application": "crush version 0.98.1",
       "paletteColors": [
         "#00a692",
@@ -39,7 +39,7 @@
     },
     "frost": {
       "path": "images/frost.png",
-      "sha256": "17667235ff1151868c6a997f52881150cade0fbeeb42baf174046644156a823e",
+      "sha256": "3bf801cfa2790b86d3702886f7c68836fbb1f7870362659a075adac64a01996a",
       "application": "crush version 0.98.1",
       "paletteColors": [
         "#0a1016",
@@ -60,7 +60,7 @@
     },
     "paper": {
       "path": "images/paper.png",
-      "sha256": "73fd2fff8e40df26836cfc6e25737a03484d179e7ce00647c280de61f050e546",
+      "sha256": "3456fee2d119d4186f0ea56f61c3cc82a35ebb12162926d53b6d249660028702",
       "application": "crush version 0.98.1",
       "paletteColors": [
         "#0f695e",
@@ -82,7 +82,7 @@
     },
     "signal": {
       "path": "images/signal.png",
-      "sha256": "88fddfd28c66bbfa5f41298fd7fdef5613368dcc7a80bfa6cd1db42c9dc84d24",
+      "sha256": "31d60771feb5bcccfdfd4996858b335ff17d101ad77e11bcd3a1bf2754774d96",
       "application": "crush version 0.98.1",
       "paletteColors": [
         "#00a692",
